@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".Activity_">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/main_btn"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="스도쿠 푸는 방법"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" 1. 가로줄 9칸에 1~9까지의 수가 한번씩만 들어간다.\n 2. 세로줄 9칸에 1~9까지의 수가 한번씩만 들어간다.\n 3. 작은 상자 3X3 칸에 1~9까지의 수가 한번씩만 들어간다.\n"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/main_btn"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="게임 기능"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text=" 게임 상단에 체크 표시 버튼을 누르면, 게임 종료 가능, \n MUSIC ON/OFF 기능을 통해 배경음악 종료가 가능합니다 !
+        \n\n숫자를 추가하고자 하는 게임 보드판을 누른 후, \n원하는 숫자 그림을 누르면  숫자 대입 완료 ! \n오답일 경우 지우개를 눌러 지울 수 있습니다 ~\n " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text=" * 주의 *  \n 5번 이상으로 잘못된 숫자를 대입할 경우 게임 종료!!!!"
+        android:textColor="#FF1744"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="처음 화면으로\n 돌아가기"
+        android:textSize="10dp"/>
+
+</LinearLayout>

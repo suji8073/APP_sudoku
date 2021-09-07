@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAFA"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="music_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="8dp"
+        android:text="* 머리를 맑게 해줄 MUSIC PLAY *"
+        android:textColor="#8B008B"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/music_main" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_marginTop="40dp"
+        android:id="@+id/youtubeView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_music"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/l_game"
+            android:paddingLeft="10dp"
+            android:text="MUSIC START"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/music_back"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/r_game"
+            android:paddingRight="10dp"
+            android:text="BACK"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

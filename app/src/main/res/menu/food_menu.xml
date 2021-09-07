@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/badfood"
+        android:title="뇌 활성화에 나쁜 음식 보기" />
+    <item
+        android:id="@+id/BACK"
+        android:title="되돌아가기" />
+
+
+
+
+
+
+</menu>
